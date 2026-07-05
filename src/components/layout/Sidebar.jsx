@@ -36,7 +36,7 @@ const NAV = {
 }
 
 const ROLE_LABELS = { ROLE_STUDENT:'Student', ROLE_WARDEN:'Warden', ROLE_DEAN:'Dean', ROLE_SECURITY:'Security', ROLE_ADMIN:'Admin' }
-const PROFILE_PATH = { ROLE_STUDENT:'/student/profile', ROLE_WARDEN:'/warden/profile', ROLE_DEAN:'/dean/profile', ROLE_SECURITY:'/security/scan', ROLE_ADMIN:'/admin/profile' }
+const PROFILE_PATH = { ROLE_STUDENT:'/student/profile', ROLE_WARDEN:'/warden/profile', ROLE_DEAN:'/dean/profile', ROLE_SECURITY:'/security/profile', ROLE_ADMIN:'/admin/profile' }
 
 
 // OUTSIDE Sidebar — prevents re-mount on state change

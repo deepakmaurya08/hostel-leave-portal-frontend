@@ -62,7 +62,7 @@ export default function App() {
           <Route path="/security/*" element={<ProtectedRoute role="ROLE_SECURITY">{W(<Routes>
             <Route path="scan"      element={<SecurityScan />} />
             <Route path="profile"   element={<ProfilePage />} />
-            <Route path="*"         element={<Navigate to="dashboard" replace />} />
+            <Route path="*"         element={<Navigate to="scan" replace />} />
           </Routes>)}</ProtectedRoute>} />
 
           <Route path="/admin/*" element={<ProtectedRoute role="ROLE_ADMIN">{W(<Routes>
